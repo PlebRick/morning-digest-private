@@ -63,7 +63,7 @@ log "Step 4: Generating article with Claude..."
 ARTICLE_FILE=$(mktemp /tmp/morning-digest-article-XXXXXX.md)
 trap "rm -f '$PROMPT_FILE' '$ARTICLE_FILE'" EXIT
 
-claude -p --model opus < "$PROMPT_FILE" > "$ARTICLE_FILE" 2>>"$LOGFILE"
+claude -p --model sonnet < "$PROMPT_FILE" > "$ARTICLE_FILE" 2>>"$LOGFILE"
 
 if [ ! -s "$ARTICLE_FILE" ]; then
   log "ERROR: Claude returned empty response"
