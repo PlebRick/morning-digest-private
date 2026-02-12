@@ -1,0 +1,17 @@
+:root {
+  --theme: #0f0f10;
+  --entry: #18181b;
+  --primary: #e4e4e7;
+  --secondary: #a1a1aa;
+  --tertiary: #27272a;
+  --border: #27272a;
+  --accent: #3b82f6;
+  --content: #d4d4d8;
+  --code-bg: #1a1a1e;
+  --main-width: 800px;
+  --gap: 24px;
+}
+
+body {
+  background: var(--theme);
+}

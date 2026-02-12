@@ -1,0 +1,33 @@
+.toc {
+  background: transparent;
+  border: 1px solid var(--tertiary);
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+
+.toc .inner {
+  margin: 0;
+}
+
+.toc details summary {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+.toc ul {
+  padding-left: 1rem;
+}
+
+.toc a {
+  color: var(--secondary);
+  font-size: 0.9rem;
+  transition: color 0.15s ease;
+}
+
+.toc a:hover {
+  color: var(--accent);
+}

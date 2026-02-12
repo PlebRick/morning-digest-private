@@ -1,0 +1,33 @@
+.post-entry {
+  background: var(--entry);
+  border: 1px solid var(--tertiary);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.2s ease;
+}
+
+.post-entry:hover {
+  border-color: var(--accent);
+}
+
+.entry-header h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.entry-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: var(--secondary);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.post-entry .entry-footer {
+  color: var(--secondary);
+  font-size: 0.8rem;
+}

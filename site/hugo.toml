@@ -16,7 +16,8 @@ theme = "PaperMod"
   showBreadCrumbs = true
   showCodeCopyButtons = false
   showToc = true
-  tocOpen = false
+  tocOpen = true
+  disableThemeToggle = true
   comments = false
   hideFooter = false
 
