@@ -4,3 +4,10 @@ site/resources/
 raw/
 logs/
 .hugo_build.lock
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key
+credentials.json
