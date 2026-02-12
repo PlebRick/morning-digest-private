@@ -1,3 +1,7 @@
+.post-description {
+  display: none;
+}
+
 .post-title {
   font-size: 36px;
   font-weight: 700;
