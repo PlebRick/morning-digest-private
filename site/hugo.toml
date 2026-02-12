@@ -1,0 +1,55 @@
+baseURL = "https://news.btctx.us/"
+languageCode = "en-us"
+title = "Morning Digest"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = "production"
+  description = "Daily news digest from independent media"
+  author = "Morning Digest"
+  defaultTheme = "dark"
+  showReadingTime = true
+  showShareButtons = false
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = false
+  showToc = true
+  tocOpen = false
+  comments = false
+  hideFooter = false
+
+  [params.homeInfoParams]
+    title = "Morning Digest"
+    content = "Daily synthesized briefing from independent media, Bitcoin, and macro finance."
+
+  [params.label]
+    text = "Morning Digest"
+
+[menu]
+  [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

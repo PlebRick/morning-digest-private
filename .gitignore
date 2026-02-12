@@ -1,0 +1,6 @@
+node_modules/
+site/public/
+site/resources/
+raw/
+logs/
+.hugo_build.lock

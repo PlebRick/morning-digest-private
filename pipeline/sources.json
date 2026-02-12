@@ -1,0 +1,53 @@
+{
+  "lookbackHours": 36,
+  "feeds": [
+    {
+      "name": "Tim Pool",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCG749Dj4V2fKa143f8sE60Q",
+      "category": "commentary",
+      "type": "youtube"
+    },
+    {
+      "name": "Timcast IRL",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLwNTXWEjVd2qIHLcXxQWxA",
+      "category": "commentary",
+      "type": "youtube"
+    },
+    {
+      "name": "PBD / Valuetainment",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIHdDJ0tjn_3j-FS7s_X1kQ",
+      "category": "commentary",
+      "type": "youtube"
+    },
+    {
+      "name": "InvestAnswers",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UClgJyzwGs-GyaNxUHcLZrkg",
+      "category": "finance",
+      "type": "youtube"
+    },
+    {
+      "name": "Into the Cryptoverse",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRvqjQPSeaWn-uEx-w0XOIg",
+      "category": "crypto",
+      "type": "youtube"
+    },
+    {
+      "name": "Alex Jones Show",
+      "url": "https://rss.infowars.com/Alex.xml",
+      "category": "commentary",
+      "type": "podcast"
+    },
+    {
+      "name": "TFTC (Marty Bent)",
+      "url": "https://tftc.io/rss/",
+      "category": "bitcoin",
+      "type": "blog"
+    },
+    {
+      "name": "Lyn Alden",
+      "url": "https://www.lynalden.com/feed/",
+      "category": "finance",
+      "type": "blog"
+    }
+  ]
+}
