@@ -1,3 +1,12 @@
+.first-entry {
+  min-height: auto;
+  margin: var(--gap) 0;
+}
+
+.first-entry .entry-header h1 {
+  font-size: 28px;
+}
+
 .post-entry {
   background: var(--entry);
   border: 1px solid var(--tertiary);
